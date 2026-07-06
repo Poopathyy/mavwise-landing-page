@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MavWise — Build Skills. Gain Experience. Create Impact.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== STORY RAIL (chapter progress, desktop only) ===== -->
+<nav class="story-rail" id="storyRail" aria-label="Story progress">
+  <div class="story-rail__line"><span class="story-rail__fill" id="railFill"></span></div>
+  <button class="story-rail__stop" data-target="#home"><span class="story-rail__dot"></span><span class="story-rail__label">01 The Gap</span></button>
+  <button class="story-rail__stop" data-target="#about"><span class="story-rail__dot"></span><span class="story-rail__label">02 The Bridge</span></button>
+  <button class="story-rail__stop" data-target="#benefits"><span class="story-rail__dot"></span><span class="story-rail__label">03 The Growth</span></button>
+  <button class="story-rail__stop" data-target="#future-ready"><span class="story-rail__dot"></span><span class="story-rail__label">04 The Transformation</span></button>
+  <button class="story-rail__stop" data-target="#proof"><span class="story-rail__dot"></span><span class="story-rail__label">05 The Proof</span></button>
+  <button class="story-rail__stop" data-target="#join"><span class="story-rail__dot"></span><span class="story-rail__label">06 Your Move</span></button>
+</nav>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="container navbar__inner">
+    <a href="#" class="logo">
+      <span class="logo__mark">MW</span>
+      MavWise
+    </a>
+ 
+    <nav class="nav__links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#future-ready">Future Ready</a>
+      <a href="#contact">Contact</a>
+    </nav>
+ 
+    <a href="https://sys.mavwise.com/login.php" class="btn btn--secondary">Login</a>
+    <a href="https://mavwise.com/index.php" class="btn btn--primary btn--nav">Join Now <span class="arrow">→</span></a>
+ 
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home" data-chapter="1">
+  <div class="container hero__inner">
+    <div class="hero__copy reveal">
+      <span class="chapter-tag">Building Future-Ready Generations</span>
+      <h1>
+        Building<br>
+        <span class="grad-text">Future-Ready</span><br>
+        Generations
+
+      </h1>
+      <p class="hero__desc">
+        The future doesn't belong to those who know the most. It belongs to those who can learn, adapt and apply. MavWise is a Youth Development Ecosystem that prepares individuals for an ever-changing world through practical learning, real-world application and meaningful opportunities.
+      </p>
+      <div class="hero__actions">
+        <a href="https://mavwise.com/" class="btn btn--primary" target="_blank">Join Now <span class="arrow">→</span></a>
+        <a href="#about" class="btn btn--ghost">Learn More</a>
+      </div>
+      <div class="hero__social-proof">
+        <div class="avatar-stack">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <p>Join thousands of students<br>building their future with MavWise</p>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__ring"></div>
+      <div class="hero__photo">
+        <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" class="hero__illustration" aria-hidden="true">
+          <defs>
+            <linearGradient id="skinA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f3c9a3"/><stop offset="1" stop-color="#e0a978"/>
+            </linearGradient>
+          </defs>
+          <rect width="400" height="320" fill="#1c2333"/>
+          <rect x="0" y="230" width="400" height="90" fill="#161b28"/>
+          <rect x="150" y="180" width="110" height="70" rx="4" fill="#3a4256"/>
+          <rect x="158" y="188" width="94" height="50" rx="2" fill="#8fa6ff" opacity="0.8"/>
+          <circle cx="120" cy="150" r="30" fill="url(#skinA)"/>
+          <rect x="90" y="178" width="60" height="70" rx="18" fill="#5b6fd6"/>
+          <circle cx="200" cy="140" r="28" fill="url(#skinA)"/>
+          <rect x="172" y="166" width="56" height="70" rx="16" fill="#caa4ff"/>
+          <circle cx="280" cy="148" r="29" fill="url(#skinA)"/>
+          <rect x="251" y="175" width="58" height="70" rx="17" fill="#6b7cff"/>
+          <circle cx="345" cy="155" r="27" fill="url(#skinA)"/>
+          <rect x="318" y="180" width="55" height="65" rx="16" fill="#3a4256"/>
+        </svg>
+      </div>
+
+      <div class="floating-card floating-card--top">
+        <span class="fc__icon fc__icon--case">💼</span>
+        <div>
+          <strong>Practical Experience</strong>
+          <small>Real-world exposure</small>
+        </div>
+      </div>
+      <div class="floating-card floating-card--left">
+        <span class="fc__icon fc__icon--chart">📈</span>
+        <div>
+          <strong>Skill Development</strong>
+          <small>Industry-relevant skills</small>
+        </div>
+      </div>
+      <div class="floating-card floating-card--right">
+        <span class="fc__icon fc__icon--people">👥</span>
+        <div>
+          <strong>Future Ready</strong>
+          <small>Opportunities for all</small>
+        </div>
+      </div>
+
+      <span class="dot dot--pink"></span>
+      <span class="dot dot--purple"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about" data-chapter="2">
+  <div class="container about__inner">
+    <div class="about__visual reveal">
+      <svg viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="420" height="380" rx="24" fill="#e7e4fb"/>
+        <circle cx="330" cy="70" r="34" fill="#d6d0f7"/>
+        <rect x="60" y="200" width="120" height="90" rx="10" fill="#ffffff"/>
+        <rect x="75" y="215" width="90" height="8" rx="4" fill="#c9c2f4"/>
+        <rect x="75" y="232" width="60" height="8" rx="4" fill="#c9c2f4"/>
+        <circle cx="120" cy="150" r="34" fill="#f6c199"/>
+        <rect x="88" y="182" width="64" height="90" rx="18" fill="#f4a640"/>
+        <circle cx="220" cy="120" r="30" fill="#e0a978"/>
+        <rect x="192" y="150" width="56" height="110" rx="16" fill="#3a4256"/>
+        <circle cx="290" cy="130" r="30" fill="#f3c9a3"/>
+        <rect x="262" y="160" width="56" height="100" rx="16" fill="#5b6fd6"/>
+      </svg>
+    </div>
+
+    <div class="about__copy reveal">
+      <span class="chapter-tag">The Bridge</span>
+      <p class="eyebrow">About MavWise</p>
+      <h2>What is <span class="grad-text">MavWise</span>?</h2>
+      <p class="about__desc">
+        MavWise is a youth development ecosystem that equips students with practical
+        learning, real-world application, and meaningful opportunities to thrive in
+        their future careers.
+      </p>
+
+      <div class="feature-grid">
+        <div class="feature">
+          <span class="feature__icon">🔗</span>
+          <p>Bridging the gap between learning and the real world</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">📖</span>
+          <p>Practical learning beyond classrooms</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🚀</span>
+          <p>Opportunities to grow, connect and succeed</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🧑‍🤝‍🧑</span>
+          <p>A supportive ecosystem for your journey</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills" id="benefits" data-chapter="3">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="chapter-tag chapter-tag--center">The Growth</span>
+      <p class="eyebrow eyebrow--center">Skills You'll Gain</p>
+      <h2>Skills for <span class="grad-text">Life</span>. Skills for the Future.</h2>
+    </div>
+
+    <div class="skills__grid reveal">
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#eef1ff;color:#5b6fd6;">💬</span>
+        <h3>Communication Skills</h3>
+        <p>Express ideas clearly and confidently.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#f1ecff;color:#8a5cf6;">🖥️</span>
+        <h3>Digital Confidence</h3>
+        <p>Use digital tools with ease and effectiveness.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#e8f9ef;color:#22a45d;">💲</span>
+        <h3>Financial Capability</h3>
+        <p>Understand money and make smart decisions.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#fff1e6;color:#f2872b;">🧳</span>
+        <h3>Practical Experience</h3>
+        <p>Gain real-world experience through projects.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#ffeaf3;color:#f0468f;">🧩</span>
+        <h3>Adaptability</h3>
+        <p>Adjust and thrive in any environment or challenge.</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-card__icon" style="background:#fff7d9;color:#c99a12;">💡</span>
+        <h3>Problem Solving</h3>
+        <p>Think critically and create meaningful solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FUTURE READY ===== -->
+<section class="future-ready" id="future-ready" data-chapter="4">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="chapter-tag chapter-tag--center chapter-tag--light">The Transformation</span>
+      <p class="eyebrow eyebrow--center eyebrow--light">Future Ready</p>
+      <h2 class="light-heading">Future-ready generations who <span class="grad-text">become</span></h2>
+    </div>
+
+    <div class="future__grid reveal">
+      <div class="future-card">
+        <span class="future-card__icon">🚩</span>
+        <h3>Leaders</h3>
+        <p>Who inspire others.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">🧱</span>
+        <h3>Builders</h3>
+        <p>Who create meaningful solutions.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">💡</span>
+        <h3>Innovators</h3>
+        <p>Who embrace change.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">🧩</span>
+        <h3>Problem Solvers</h3>
+        <p>Who turn challenges into opportunities.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">🎁</span>
+        <h3>Value Creators</h3>
+        <p>Who make a meaningful impact.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">🎓</span>
+        <h3>Lifelong Learners</h3>
+        <p>Who never stop growing.</p>
+      </div>
+      <div class="future-card">
+        <span class="future-card__icon">🌐</span>
+        <h3>Changemakers</h3>
+        <p>Who make the world better.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHAT YOU'LL GET ===== -->
+<section class="testimonials" id="proof" data-chapter="5">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="chapter-tag chapter-tag--center">The Proof</span>
+      <p class="eyebrow eyebrow--center">Why Join MavWise</p>
+      <h2>What You'll <span class="grad-text">Get</span></h2>
+    </div>
+
+    <div class="testimonial__row reveal">
+      <button class="slider-btn" id="prevBtn" aria-label="Previous">←</button>
+
+      <div class="testimonial__track" id="testimonialTrack">
+        <div class="testimonial-card">
+          <span class="quote-mark benefit-icon">🧳</span>
+          <strong class="benefit-title">Real Industry Projects</strong>
+          <p>Work on live projects with real companies and build a portfolio that actually stands out.</p>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark benefit-icon">🎯</span>
+          <strong class="benefit-title">Mentorship & Guidance</strong>
+          <p>Get paired with mentors who guide you through every step of your growth journey.</p>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark benefit-icon">🤝</span>
+          <strong class="benefit-title">A Career-Ready Network</strong>
+          <p>Connect with peers, alumni, and industry partners who open doors to real opportunities.</p>
+        </div>
+      </div>
+
+      <button class="slider-btn" id="nextBtn" aria-label="Next">→</button>
+    </div>
+
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="join" data-chapter="6">
+  <div class="container cta__inner reveal">
+    <div class="cta__icon">🚀</div>
+    <div class="cta__copy">
+      <span class="chapter-tag chapter-tag--onlight">Your Move</span>
+      <h2>Ready to start your journey?</h2>
+      <p>Join MavWise today and build the future you deserve.</p>
+    </div>
+    <a href="https://mavwise.com/" target="_blank" rel="noopener noreferrer" class="btn btn--light">Join Now <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="contact">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#" class="logo">
+        <span class="logo__mark">MW</span>
+        MavWise
+      </a>
+      <p>Learn. Grow. Impact.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#benefits">Benefits</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Important</h4>
+      <a href="#future-ready">Future Ready</a>
+      <a href="#">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact Us</h4>
+      <a href="mailto:admin@mavwise.com">admin@mavwise.com</a>
+      <a href="tel:+60 17 308 2865">+60 17 308 2865</a>
+      <span>No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia</span>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 MavWise. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
